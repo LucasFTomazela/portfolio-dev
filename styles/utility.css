@@ -13,3 +13,19 @@
 .flex-align-center {
     align-items: center;
 }
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-templete-columns-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gap-24 {
+    gap: 24px;
+}

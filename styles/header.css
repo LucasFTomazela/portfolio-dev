@@ -42,7 +42,7 @@ header {
         text-align: center;
     }
 
-    .subtitle {
+    .presentation {
         max-width: 680px;
         color: var(--gray-400);
         margin-block: 20px 60px;
@@ -52,7 +52,6 @@ header {
 
     .skills {
         gap: 16px;
-        flex-wrap: wrap;
         justify-content: center;
 
         .skill-card {
