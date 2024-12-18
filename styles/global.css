@@ -19,4 +19,19 @@
     --gray-400: #878EA1;
     --gray-500: #C0C4CE;
     --gray-600: #E2E4E9;
+
+    /* Typograph */
+    --font-asap: 'Asap', 'serif';
+    --font-inconsolata: 'Inconsolata', 'serif';
+    --font-maven-pro: 'Maven Pro', 'serif';   
+
+    --title-lg: 700 3.5rem/1.2 var(--font-asap);
+    --title-md: 700 1.5rem/1.2 var(--font-asap);
+    --title-sm: 700 1rem/1.2 var(--font-asap);
+
+    --subtitle: 400 1.25rem/1.2 var(--font-inconsolata);
+
+    --text-md: 400 1rem/1.4 var(--font-maven-pro);
+    --text-sm: 400 .875rem/1.4 var(--font-maven-pro);
+
 }
