@@ -20,6 +20,15 @@
         width: 330px;
         padding: 12px 12px 17px 12px;
         border-radius: 12px;
+        box-sizing: border-box;
+        overflow: hidden;
+        transition: ease 0.5s;
+        border: 1.5px solid transparent;
+
+        &:hover {
+            border-color: var(--gray-400);
+            
+        }
 
         img {
             width: 306px;
