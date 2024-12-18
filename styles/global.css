@@ -34,3 +34,18 @@
     --text-md: 400 1rem/1.4 var(--font-maven-pro);
     --text-sm: 400 .875rem/1.4 var(--font-maven-pro);
 }
+
+body {
+    background-color: var(--gray-300);
+    color: var(--gray-600);
+    font: var(--text-md);
+}
+
+a {
+    text-decoration: none;
+    color: var(--gray-600);
+
+    &:hover {
+        color: var(--blue);
+    }
+}
