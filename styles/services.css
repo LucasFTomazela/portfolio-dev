@@ -1,0 +1,44 @@
+#services {
+    background-color: var(--gray-100);
+
+    h2 {
+        margin-top: 90px;
+        font: var(--subtitle);
+        color: var(--red);
+    }
+
+    .subtitle {
+        margin-block: 8px 60px;
+        font: var(--title-md);
+    }
+
+    .card-service {
+        margin-bottom: 120px;
+    }
+
+    figure {
+        border: solid 2px var(--gray-200);
+        width: 330px;
+        padding: 20px;
+        border-radius: 12px;
+
+        img {
+            width: 48px;
+        }
+
+        figcaption {
+            margin-top: 20px;
+
+            h3 {
+                font: var(--title-sm);
+                color: var(--gray-600);
+            }
+
+            p {
+                margin-top: 8px;
+                font: var(--text-sm);
+                color: var(--gray-500);
+            };
+        }
+    }
+}
