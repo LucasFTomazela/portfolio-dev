@@ -29,3 +29,11 @@
 .gap-24 {
     gap: 24px;
 }
+
+.text-md {
+    font: var(--text-md);
+}
+
+.gray-500 {
+    color: var(--gray-500);
+}
