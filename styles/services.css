@@ -13,12 +13,17 @@
     }
 
     .card-service {
+        width: 100%;
+        max-width: 1080px;
+        padding: 0 20px;
         margin-bottom: 120px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     figure {
         border: solid 2px var(--gray-200);
-        width: 330px;
+        min-width: 280px;
         padding: 20px;
         border-radius: 12px;
 
